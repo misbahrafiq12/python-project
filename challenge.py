@@ -1,24 +1,24 @@
 #  prblem 1:Reverse a String
 
-# word = 'hello'
-# reverse = word[::-1]
-# print(reverse)
+word = 'hello'
+reverse = word[::-1]
+print(reverse)
 
 # Problem 2: Count Vowels in a String
-# word = 'Apple'
-# def vowels(word):
-#     str = word.lower()
-#     vowels = ['a','e','i','o','u']
-#     count = 0
-#     for i in str:
-#          if(i in vowels):
-#           count +=1
+word = 'Apple'
+def vowels(word):
+    str = word.lower()
+    vowels = ['a','e','i','o','u']
+    count = 0
+    for i in str:
+         if(i in vowels):
+          count +=1
           
-#     print(count)     
+    print(count)     
    
   
      
-# vowels(word)    
+vowels(word)    
 
 
 
